@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header> <h1>new restrunt</h1>
+    </header>
+    <main>
+<form action="" id="myForm">
+    <fieldset>
+        <legend>enter your information</legend>
+        <label for="userName"> user name</label>
+        <input type="text" id="userName" name="userName" placeholder="enter your name " >
+        <br/>
+        <br/>
+        <label for="phoneNum"> phone number </label>
+        <input type="text" id="phoneNum" name="phoneNum" placeholder="enter your phone number" >
+        <br/>
+        <br/>
+        <label for="foodType">food type</label>
+        <select name="foodType" id="foodType" >
+        <option value="" placeholder="select your food">select your food</option>
+        <option value="mansaf" >mansaf</option>
+        <option value="maqlubeh" >maqlubeh</option>
+        <option value="dawale" >dawale</option>
+    </select>
+        <br/>
+        <br/>
+        <label for="foodSize"> food size</label>
+        <select name="foodSize" id="foodSize">
+        <option value="" placeholder="select food size">select food size</option>
+        <option value="small" >small</option>
+        <option value="medium" >medium</option>
+        <option value="large" >large</option>
+    </select>
+        <br/>
+        <br/>
+        <input type="submit" id="submit">
+    </fieldset>
+</form>
+<table id="myTable">
+    <thead>
+        <tr>
+            <td>user name</td>
+            <td> phone number</td>
+            <td> food type </td>
+            <td>food size</td>
+            <td>image</td>
+        </tr>
+    </thead>
+    <tbody id="tbody">
+
+    </tbody>
+</table>
+<button id="clear">clear</button>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
